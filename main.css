@@ -1,0 +1,86 @@
+* {
+ padding: 0;
+ border: 0;
+ margin: 0;
+}
+
+.header {
+    background: #091527;
+    color: #81c4c2;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header > a {
+    color: #81c4c2;
+}
+
+header > button {
+    color: #091527;
+    background: #81c4c2;
+    width: 140px;
+    height: 37px;
+    border-radius: 20px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quieroviviren {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #091527;
+}
+
+.quieroviviren > button {
+    color: white;
+    background: #091527;
+    width: 400px;
+    height: 40px;
+}
+.comofunciona{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #091527;
+}
+
+.acercadenosotros {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #091527;
+}
+
+.reviews {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #091527;
+    background: lavender;
+}
+
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #091527;
+}
+
+footer > a {
+    color: #81c4c2;
+    font-weight: lighter;
+    width: 140px;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+}
+
+main section :nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 5;   
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
