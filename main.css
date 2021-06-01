@@ -45,7 +45,7 @@ header > button {
     justify-content:center;
 }
 
-.quieroviviren > button {
+.dropdown {
     color: white;
     background: #091527;
     font-size: 32px;
@@ -60,10 +60,9 @@ header > button {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2; 
-    position: absolute;
     width: 459px;
     height: 44px;
-    left: 470px;
+    left: 500px;
     top: 480px;
 }
 
