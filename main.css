@@ -18,18 +18,29 @@
 
 header > a {
     color: #81c4c2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    font-variant: small-caps;
 }
 
 header > button {
     color: #091527;
     background: #81c4c2;
-    width: 230px;
-    height: 70px;
-    font-size: 28px;
-    font-weight: bold;
-    border-radius: 20px;
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 37px;
+    width: 141px;
+    left: 858px;
+    top: 30px;
+    border-radius: 12px;
+    padding: 10px, 20px, 10px, 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    font-variant: small-caps;
 }
 
 .quieroviviren {
@@ -45,12 +56,9 @@ header > button {
     justify-content:center;
 }
 
-.dropdown {
+.btn btn-secondary dropdown-toggle{
     color: white;
-    background: #091527;
     font-size: 32px;
-    width: 600px;
-    height: 120px;
     border-radius:20px ; 
     display: grid;
     flex-direction: row;
